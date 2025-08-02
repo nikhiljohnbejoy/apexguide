@@ -142,6 +142,7 @@
 
           <div class="col-lg-6">
             <form action="https://formsubmit.co/contact@apexgui.de" method="post" role="form" class="php-email-form">
+              <input type="hidden" name="_captcha" value="false">
               <div class="row gy-4">
                 <div class="col-lg-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -151,7 +152,7 @@
                 </div>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="_subject" id="subject" placeholder="Subject" required>
               </div>
               <div class="form-group">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
